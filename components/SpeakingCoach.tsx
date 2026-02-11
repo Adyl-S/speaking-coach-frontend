@@ -231,6 +231,10 @@ export default function SpeakingCoach() {
                         <div className="absolute -bottom-10 -left-10 w-40 h-40 bg-purple-500/30 rounded-full blur-3xl -z-10"></div>
                     </div>
                 </div>
+                {/* Footer */}
+                <div className="absolute bottom-6 left-0 right-0 text-center z-10 pointer-events-none">
+                    <span className="text-zinc-600 text-sm font-medium tracking-wide">Made by Mohammad Adil</span>
+                </div>
             </div>
         );
     }
