@@ -127,7 +127,7 @@ function MyVideoConference() {
 }
 
 function CustomControlBar({ onDisconnect }: { onDisconnect: () => void }) {
-  const { room } = useRoomContext();
+  const room = useRoomContext();
   const [isMuted, setIsMuted] = useState(false);
   const [isVideoOff, setIsVideoOff] = useState(false);
 
